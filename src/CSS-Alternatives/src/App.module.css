@@ -1,0 +1,8 @@
+.header {
+  color: red;
+}
+
+.headerLighter{
+  font-weight: lighter;
+  font-size: 1rem;
+}
