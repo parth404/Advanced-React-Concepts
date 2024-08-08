@@ -1,0 +1,4 @@
+/* eslint-disable react/prop-types */
+export function TodoItem({ completed, title }) {
+  return <li className={completed ? "strike-through" : undefined}>{title}</li>;
+}
