@@ -1,0 +1,31 @@
+
+.button {
+    background-color: rgb(107, 51, 170);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: rgb(91, 44, 221);;
+  }
+  
+  .button.sm {
+    padding: 0.25em 0.5em;
+    font-size: 0.75em;
+  }
+  
+  .button.md {
+    padding: 0.5em 1em;
+    font-size: 1em;
+  }
+  
+  .button.lg {
+    padding: 0.75em 1.5em;
+    font-size: 1.25em;
+  }
